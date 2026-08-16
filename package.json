@@ -1,7 +1,5 @@
 {
   "name": "durga-puja-songs",
   "private": true,
-  "scripts": {
-    "start": "node server.js"
-  }
+  "type": "module"
 }
