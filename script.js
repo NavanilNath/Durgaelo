@@ -15,7 +15,7 @@ function onYouTubeIframeAPIReady() {
 function initOldSongs() {
   if (oldYTLoaded || !oldYTReady) return;
   if (!/^https?:$/.test(window.location.protocol)) {
-    $("oldSearch").placeholder = "Start the local server (npm start) to play songs.";
+    $("oldSearch").placeholder = "Open the deployed website to play songs.";
     return;
   }
 
